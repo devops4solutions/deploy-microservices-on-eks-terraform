@@ -65,7 +65,7 @@ jobs:
     runs-on: [ ubuntu-latest ]
     defaults:
       run:
-        working-directory: HelloWorldClient/terraform
+        working-directory: WorldService/terraform
     strategy:
       max-parallel: 1
     env:
