@@ -28,6 +28,6 @@ terraform {
   backend "s3" {
     region = "us-east-1"
     bucket = "devops4solutions-terraform"
-    key    = "eks/clientservice.tfstate"
+    key    = "eks/clientservice_monitor.tfstate"
   }
 }
