@@ -2,11 +2,11 @@ name: "Hello Service Build and Push"
 on:
   # Manual trigger
   workflow_dispatch:
-  push:
-    branches:
+ # push:
+   # branches:
       #- main
-    paths:
-      - 'HelloService/**'
+    #paths:
+    #  - 'HelloService/**'
   pull_request:
     branches: [ main ]
     paths:

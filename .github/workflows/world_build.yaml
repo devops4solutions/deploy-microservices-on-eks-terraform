@@ -2,11 +2,11 @@ name: "World Service Build and Push"
 on:
   # Manual trigger
   workflow_dispatch:
-  push:
-    branches:
+  #push:
+  #  branches:
      # - main
-    paths:
-      - 'WorldService/**'
+   # paths:
+    #  - 'WorldService/**'
   pull_request:
     branches: [ main ]
     paths:
