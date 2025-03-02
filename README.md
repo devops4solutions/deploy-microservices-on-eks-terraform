@@ -1,3 +1,6 @@
+# Prerequistie
+1. EKS Cluster configured with Prometehus Grafana & alert Manager
+
 # Exposing Spring Boot Microservices to Prometheus
 
 This guide will help you configure your **Spring Boot microservices** to expose **metrics** that can be scraped by **Prometheus**.
@@ -25,7 +28,7 @@ management.endpoints.web.exposure.include=*
 ```
 
 
-## 3️⃣ Run the Application & Verify Metrics
+## 3️⃣ Run the Application Locally & Verify Metrics
 Start your Spring Boot application and check if Prometheus metrics are exposed at:
 
 ```
