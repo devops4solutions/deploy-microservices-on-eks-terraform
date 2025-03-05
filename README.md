@@ -32,7 +32,7 @@ management.endpoints.web.exposure.include=*
 Start your Spring Boot application and check if Prometheus metrics are exposed at:
 
 ```
-http://localhost:8080/actuator/prometheus
+http://localhost:/actuator/prometheus
 ```
 
 ## 4️⃣ Configure Prometheus to Scrape Metrics
