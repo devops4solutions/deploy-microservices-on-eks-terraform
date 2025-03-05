@@ -19,6 +19,6 @@ public class HelloController {
         Counter helloCounter = meterRegistry.counter("requests.world");
         helloCounter.increment();  // Increment every time this endpoint is hit
 
-        return "****Hello from World Service****";
+        return "****Hello from World Service ****";
     }
 }
