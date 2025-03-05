@@ -4,6 +4,7 @@ resource "helm_release" "myapp" {
   chart      = "springboot"
   namespace  = "app1"  # Change as per your setup
   version    = "0.1.5"    # Use the correct version from index.yaml
+  force_update = true
   create_namespace = "true"
   values = [
     file("${path.module}/values_client.yaml")  # Optional: Use custom values file
