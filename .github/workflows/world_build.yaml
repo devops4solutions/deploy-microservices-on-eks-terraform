@@ -53,7 +53,7 @@ jobs:
         id: build-image
         env:
           ECR_REGISTRY: public.ecr.aws/w0f5g4k6
-          ECR_REPOSITORY: client-svc
+          ECR_REPOSITORY: world-svc
           IMAGE_TAG: latest
         run: |
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
