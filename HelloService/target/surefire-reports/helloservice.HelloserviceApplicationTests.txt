@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: helloservice.HelloserviceApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.811 s - in helloservice.HelloserviceApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.781 s - in helloservice.HelloserviceApplicationTests
