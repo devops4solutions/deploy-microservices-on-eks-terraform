@@ -1,3 +1,7 @@
+# References
+
+https://youtu.be/dn_5cpigBKo
+
 # Prerequistie
 1. EKS Cluster configured with Prometehus Grafana & alert Manager
 
